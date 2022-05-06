@@ -4,6 +4,10 @@
 
   background-color: white;
   box-shadow: 0 8px hsla(0, 0%, 0%, 0.15);
+
+  @include mediaQ(pxToRem(600), null) {
+    padding: $spacing-4;
+  }
   
   > * + * {
     margin-top: $spacing-1;
