@@ -1,0 +1,22 @@
+@mixin setTxt($col, $size, $wei, $lh: null) {
+  color: $col;
+  font-size: $size;
+  font-weight: $wei;
+  line-height: $lh;
+}
+
+@mixin mediaQ($min, $max) {
+  @if $min != null and $max != null {
+    @media (min-width: $min) and (max-width: $max) {
+      @content;
+    }
+  } @else if $min == null {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @media (min-width: $min) {
+      @content;
+    }
+  }
+}

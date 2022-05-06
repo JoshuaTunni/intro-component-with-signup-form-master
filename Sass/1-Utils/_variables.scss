@@ -1,0 +1,40 @@
+// > colours
+$col-prim-1: hsl(0, 100%, 74%);
+$col-prim-2: hsl(154, 59%, 51%);
+
+$col-acc-1: hsl(248, 32%, 49%);
+
+$col-neut-1: hsl(249, 10%, 26%);
+$col-neut-2: hsl(246, 25%, 77%);
+$col-neut-3: rgba(0, 0, 0, 0.15);
+
+// > fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+$font-type-main: "Poppins", sans-serif;
+
+$font-size-base: 16;
+
+$font-wei-1: 400;
+$font-wei-2: 500;
+$font-wei-3: 600;
+$font-wei-4: 700;
+
+$font-size-1: 0.7rem;
+$font-size-2: 1rem;
+$font-size-3: 1.8rem;
+$font-size-4: 3rem;
+
+// > spacing
+$spacing-1: 1.2rem;
+$spacing-2: 1.5rem;
+$spacing-3: 2rem;
+$spacing-4: 3rem;
+$spacing-5: 4rem;
+$spacing-6: 6rem;
+
+// > sizing
+$sizing-1: 550px;
+
+// > other
+$corner-1: 5px;
+$corner-2: 10px;

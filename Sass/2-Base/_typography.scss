@@ -1,0 +1,46 @@
+// what txt looks like before more specifications
+// useful to do most of the work
+// if more specific, use modules
+
+h1 {
+  @include setTxt(white, $font-size-3, $font-wei-4, 1.3);
+}
+
+h2 {
+  @include setTxt(white, $font-size-2, $font-wei-1, 1.8);
+}
+
+h3 {
+  @include setTxt($col-neut-2, $font-size-1, $font-wei-1, 2);
+}
+
+h4 {
+  @include setTxt(white, $font-size-1, $font-wei-1, 2);
+}
+
+p {
+  @include setTxt(white, $font-size-2, $font-wei-1, 1.8);
+}
+
+a {
+  @include setTxt($col-acc-1, $font-size-1, $font-wei-1, 2);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+input {
+  @include setTxt($col-neut-1, $font-size-2, $font-wei-3, null);
+
+  &[type="submit"] {
+    @include setTxt(white, $font-size-2, $font-wei-2, null);
+    text-transform: uppercase;
+  }
+}
+
+label {
+  @include setTxt($col-prim-1, $font-size-1, $font-wei-2, null);
+  font-style: italic;
+}

@@ -1,0 +1,15 @@
+body {
+  padding-left: $spacing-1;
+  padding-right: $spacing-1;
+
+  background-color: $col-prim-1;
+  background-image: url(../../images/bg-intro-mobile.png);
+
+  @include mediaQ(pxToRem(600), null) {
+    background-image: url(../../images/bg-intro-desktop.png);
+  }
+}
+
+*:focus-visible {
+  outline: 1px solid $col-acc-1;
+}

@@ -1,0 +1,15 @@
+#header {
+  max-width: $sizing-1;
+
+  margin-top: $spacing-6;
+  margin-bottom: $spacing-5;
+
+  @include mediaQ(pxToRem(600), pxToRem(1000)) {
+    margin-top: $spacing-5;
+  }
+
+  @include mediaQ(pxToRem(1000), null) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

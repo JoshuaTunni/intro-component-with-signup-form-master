@@ -1,0 +1,8 @@
+#footer {
+  margin-top: $spacing-4;
+  margin-bottom: $spacing-2;
+
+  @include mediaQ(pxToRem(600), null) {
+    margin-top: $spacing-6;
+  }
+}

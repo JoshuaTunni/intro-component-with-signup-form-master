@@ -1,0 +1,24 @@
+.intro {
+  text-align: center;
+
+  &__desc {
+    margin-top: $spacing-2;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  @include mediaQ(pxToRem(600), null) {
+    &__title {
+      font-size: $font-size-4;
+    }
+
+    &__desc {
+      margin-top: $spacing-2;
+      padding: 0;
+    }
+  }
+
+  @include mediaQ(pxToRem(1000), null) {
+    text-align: left;
+  }
+}

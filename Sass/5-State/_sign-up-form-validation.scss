@@ -1,0 +1,18 @@
+.sign-up__field.is-error {
+  border: 2px solid $col-prim-1;
+
+  background-image: url(../../images/icon-error.svg);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1.2rem);
+
+  &::placeholder {
+    color: $col-prim-1;
+  }
+}
+
+.sign-up__warning.is-error {
+  display: block;
+
+  margin-top: 0.5rem;
+}

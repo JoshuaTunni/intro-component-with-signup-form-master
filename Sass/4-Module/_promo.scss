@@ -1,0 +1,13 @@
+.promo {
+  @extend %panel-1;
+  border-radius: $corner-2;
+
+  text-align: center;
+
+  padding-left: $spacing-4;
+  padding-right: $spacing-4;
+  margin-bottom: $spacing-2;
+
+  background-color: $col-acc-1;
+  box-shadow: 0 8px hsla(0, 0%, 0%, 0.15);
+}

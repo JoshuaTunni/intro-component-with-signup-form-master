@@ -1,0 +1,49 @@
+.sign-up {
+  padding: $spacing-2;
+  border-radius: $corner-2;
+
+  background-color: white;
+  box-shadow: 0 8px hsla(0, 0%, 0%, 0.15);
+  
+  > * + * {
+    margin-top: $spacing-1;
+  }
+
+  &__field {
+    @extend %panel-1;
+
+    text-indent: 1rem;
+
+    border: 1px solid $col-neut-2;
+  }
+
+  &__warning {
+    display: none;
+
+    text-align: right;
+  }
+
+  &__submit {
+    @extend %panel-1;
+
+    padding-bottom: 0.8rem; // btn looked vertically offset
+
+    background-color: $col-prim-2;
+    box-shadow: 0 4px darken($col-prim-2, 5);
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: lighten($col-prim-2, 15);
+      box-shadow: 0 4px $col-prim-2;
+    }
+  }
+
+  &__disclaimer {
+    text-align: center;
+  }
+
+  &__terms {
+    @include setTxt($col-prim-1, null, $font-wei-4, null);
+  }
+}
