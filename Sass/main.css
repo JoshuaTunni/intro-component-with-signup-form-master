@@ -20,12 +20,12 @@ body {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
   background-color: #ff7a7a;
-  background-image: url(../../images/bg-intro-mobile.png);
+  background-image: url(../images/bg-intro-mobile.png);
 }
 
 @media (min-width: 37.5rem) {
   body {
-    background-image: url(../../images/bg-intro-desktop.png);
+    background-image: url(../images/bg-intro-desktop.png);
   }
 }
 

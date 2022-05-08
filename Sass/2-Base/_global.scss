@@ -3,10 +3,10 @@ body {
   padding-right: $spacing-1;
 
   background-color: $col-prim-1;
-  background-image: url(../../images/bg-intro-mobile.png);
+  background-image: url(../images/bg-intro-mobile.png);
 
   @include mediaQ(pxToRem(600), null) {
-    background-image: url(../../images/bg-intro-desktop.png);
+    background-image: url(../images/bg-intro-desktop.png);
   }
 }
 
