@@ -258,7 +258,7 @@ label {
 
 .sign-up__field.is-error {
   border: 2px solid #ff7a7a;
-  background-image: url(../../images/icon-error.svg);
+  background-image: url(../images/icon-error.svg);
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: calc(100% - 1.2rem);
